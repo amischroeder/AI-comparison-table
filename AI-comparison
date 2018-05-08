@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+    text-align: center;
+    padding: 6px;
+    border-right: solid 1px #ddd;
+    border-left: solid 1px #ddd;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+img {
+    max-width: 300px;
+    height: auto;
+  }
+li {
+    list-style: square
+  }
+ul {
+    list-style-position: inside;
+    display: inline-block;
+    text-align:left;
+}
+</style>
+</head>
+<body>
+
+<div style="overflow-x:auto; overflow-y:auto;">
+  <table>
+    <tr>
+      <th scope="col">Image</th>
+      <th scope="col">Facebook Alt Attribute</th>
+      <th scope="col">Amazon Output</th>
+      <th scope="col">Google Output</th>
+      <th scope="col">Microsoft Output</th>
+    </tr>
+    <tr>
+      <th scope="row"><img id="image1" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/27867859_1975520326043680_7396889727689823075_n.jpg?_nc_cat=0&oh=8b962619c04016b6df1f7592e5f0a31b&oe=5B60B447" height="420" width="420"></th>
+      <td>Alt="Image may contain: 2 people, people smiling, dog, tree, and outdoor"</td>
+      <td>
+        <ul>
+          <li>Animal</li>
+          <li>Canine</li>
+          <li>Dog</li>
+          <li>Pet</li>
+          <li>Puppy</li>
+          <li>Flora</li>
+          <li>Jar</li>
+          <li>Plant</li>
+          <li>Potted Plant</li>
+          <li>Pottery</li>
+          <li>Vase</li>
+          <li>Golden Retriever</li>
+          <li>Adorable</li>
+          <li>Chow</li>
+          <li>Blossom</li>
+          <li>Flower</li>
+          <li>Backyard</li>
+          <li>Outdoors</li>
+          <li>Yard</li>
+          <li>Toy</li>
+          <li>Tree</li>
+          <li>Cherry Blossom</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Golden Retriever</li>
+          <li>Labrador Retriever</li>
+          <li>Pit Bull</li>
+          <li>Pug</li>
+          <li>French Bulldog</li>
+          <li>Puppy</li>
+          <li>Keri Barker</li>
+          <li>Animal</li>
+          <li>Retriever</li>
+          <li>Pet</li>
+          <li>Dog breed</li>
+          <li>Companion dog</li>
+          <li>Image</li>
+          <li>Cuteness</li>
+          <li>Dog</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Grass</li>
+          <li>Dog</li>
+          <li>Outdoor</li>
+          <li>Person</li>
+          <li>Brown</li>
+          <li>Photo</li>
+          <li>Posing</li>
+          <li>Man</li>
+          <li>Standing</li>
+          <li>Bench</li>
+          <li>Front</li>
+          <li>Sitting</li>
+          <li>Holding</li>
+          <li>Truck</li>
+          <li>Black</li>
+          <li>Park</li>
+          <li>Large</li>
+          <li>White</li>
+          <li>Hot</li>
+          <li>Red</li>
+          <li>Woman</li>
+          <li>Field</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><img id="image2" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/21314448_10155754786668750_7590727976935711813_n.jpg?_nc_cat=0&oh=ed5b7331a3da75ca92b39e57100d3669&oe=5B9C0B87" height="420" width="420"></th>
+      <td>Alt="Image may contain: 1 person, smiling, pool and outdoor"</td>
+      <td>
+        <ul>
+          <li>Pool</li>
+          <li>Water</li>
+          <li>Sport</li>
+          <li>Sports</li>
+          <li>Swimming</li>
+          <li>Building</li>
+          <li>Hotel</li>
+          <li>Resort</li>
+          <li>Swimming Pool</li>
+          <li>House</li>
+          <li>Housing</li>
+          <li>Villa</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Beirut</li>
+          <li>Cairo</li>
+          <li>Yara</li>
+          <li>Swimming Pool</li>
+          <li>Image</li>
+          <li>Artist</li>
+          <li>Swimming</li>
+          <li>Film</li>
+          <li>Resort</li>
+          <li>Swimming</li>
+          <li>Recreation</li>
+          <li>Sabah</li>
+          <li>Mahmoud Hemida</li>
+          <li>Faten Hamama</li>
+          <li>Lebanon</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Water</li>
+          <li>Pool</li>
+          <li>Building</li>
+          <li>Outdoor</li>
+          <li>Swimming</li>
+          <li>Table</li>
+          <li>Blue</li>
+          <li>Sitting</li>
+          <li>Man</li>
+          <li>Umbrella</li>
+          <li>Boat</li>
+          <li>Dock</li>
+          <li>Pond</li>
+          <li>Standing</li>
+          <li>Bird</li>
+          <li>Dog</li>
+          <li>People</li>
+          <li>Lake</li>
+          <li>Top</li>
+          <li>Large</li>
+          <li>Body</li>
+          <li>Woman</li>
+          <li>White</li>
+          <li>Young</li>
+          <li>Beach</li>
+          <li>Playing</li>
+          <li>Frisbee</li>
+          <li>Eating</li>
+          <li>Board</li>
+          <li>Riding</li>
+          <li>Court</li>
+          <li>Ocean</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img id="image5" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/16830807_1534498046575468_4075490036381249406_n.jpg?_nc_cat=0&oh=976b013ebb3b6765033c3cb9f354a7e1&oe=5B8FE090">
+      </th>
+      <td>Alt="Image may contain: drawing"</td>
+      <td>
+        <ul>
+          <li>Art</li>
+          <li>Drawing</li>
+          <li>Sketch</li>
+          <li>Diagram</li>
+          <li>Plan</li>
+          <li>Doodle</li>
+          <li>Text</li>
+          <li>Label</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>The New Yorker</li>
+          <li>Cartoon</li>
+          <li>Humour</li>
+          <li>Comics</li>
+          <li>Drawing</li>
+          <li>Image</li>
+          <li>Sketch</li>
+          <li>Magazine</li>
+          <li>Cartoons Magazine</li>
+          <li>Book</li>
+          <li>Canvas Print</li>
+          <li>Gary Larson</li>
+          <li>Julia Suits</li>
+          <li>Cartoon Cartoons</li>
+          <li>Farley Katz</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>None</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img id="image8" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/21765239_1445824272176213_7400210740533049249_n.jpg?_nc_cat=0&oh=cdc32013965814e713d833c47fba93d3&oe=5B5BF720">
+      </th>
+      <td>Alt="Image may contain: drawing"</td>
+      <td>
+        <ul>
+          <li>Art</li>
+          <li>Drawing</li>
+          <li>Sketch</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Sketch</li>
+          <li>Drawing</li>
+          <li>Sketchbook</li>
+          <li>Visual Arts</li>
+          <li>Art</li>
+          <li>Pencil</li>
+          <li>Hatching</li>
+          <li>Illustration</li>
+          <li>Figure Drawing</li>
+          <li>Line Art</li>
+          <li>Work of Art</li>
+          <li>Portrait</li>
+          <li>Portrait Drawing</li>
+          <li>Cartoon</li>
+          <li>Nose</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Drawing</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img id="image9" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/20729184_10207743920235400_212275015018989220_n.jpg?_nc_cat=0&oh=76e889a90687e9000d30b22df2475724&oe=5B852FA7">
+      </th>
+      <td>Alt="No automatic alt text available"</td>
+      <td>
+        <ul>
+          <li>Business Card</li>
+          <li>Paper</li>
+          <li>Text</li>
+          <li>Asphalt</li>
+          <li>Tarmac</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Disability</li>
+          <li>Disabled Parking Permit</li>
+          <li>International Symbol of Access</li>
+          <li>Car Park</li>
+          <li>Accessibility</li>
+          <li>Symbol</li>
+          <li>Wheelchair</li>
+          <li>Sign</li>
+          <li>Americans with Disabilities Act of 1990</li>
+          <li>Don't DIS my ABILITY</li>
+          <li>Image</li>
+          <li>Tactile Paving</li>
+          <li>Independent Living</li>
+          <li>Services and supports for people with disabilities</li>
+          <li>Sticker</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Road</li>
+          <li>Building</li>
+          <li>Tennis</li>
+          <li>Man</li>
+          <li>Court</li>
+          <li>Holding</li>
+          <li>Blue</li>
+          <li>Street</li>
+          <li>Playing</li>
+          <li>Sign</li>
+          <li>Parking</li>
+          <li>Game</li>
+          <li>City</li>
+          <li>Player</li>
+          <li>Ball</li>
+          <li>Standing</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img id="image11" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/22539821_10159291937600276_3418675350749806047_n.jpg?_nc_cat=0&oh=1752cb78efb7172ec8ea1c46df3f7374&oe=5B525A08">
+      </th>
+      <td>Alt="Image may contain: 1 person"</td>
+      <td>
+        <ul>
+          <li>Human</li>
+          <li>People</li>
+          <li>Person</li>
+          <li>Exercise</li>
+          <li>Fitness</li>
+          <li>Gym</li>
+          <li>Sport</li>
+          <li>Sports</li>
+          <li>Working Out</li>
+          <li>Building</li>
+          <li>Factory</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Martini</li>
+          <li>Power Lifting</li>
+          <li>Barbell</li>
+          <li>Squat</li>
+          <li>Dumbbell</li>
+          <li>Strength Athletics</li>
+          <li>Deadlift</li>
+          <li>Bodybuilding</li>
+          <li>Bodypump</li>
+          <li>Exercise Machine</li>
+          <li>Physical Exercise</li>
+          <li>Human Back</li>
+          <li>Bar</li>
+          <li>Calf</li>
+          <li>Dorothy Parker</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Indoor</li>
+          <li>Sport</li>
+          <li>Person</li>
+          <li>Standing</li>
+          <li>Woman</li>
+          <li>Holding</li>
+          <li>Black</li>
+          <li>Young</li>
+          <li>Man</li>
+          <li>Kitchen</li>
+          <li>Room</li>
+          <li>Table</li>
+          <li>Top</li>
+          <li>Large</li>
+          <li>Wearing</li>
+          <li>Red</li>
+          <li>Dog</li>
+          <li>Display</li>
+          <li>White</li>
+          <li>Luggage</li>
+          <li>Playing</li>
+          <li>Ball</li>
+          <li>Plane</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img id="image12" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/22728737_1682429038475357_5437388431001580395_n.jpg?_nc_cat=0&oh=de0107842fb6bc5e6329f5110ed7b38c&oe=5B92107B">
+      </th>
+      <td>Alt="No automatic alt text available"</td>
+      <td>
+        <ul>
+          <li>Flora</li>
+          <li>Food</li>
+          <li>Plant</li>
+          <li>Produce</li>
+          <li>Pumpkin</li>
+          <li>Squash</li>
+          <li>Vegetable</li>
+          <li>Inflatable</li>
+          <li>Figurine</li>
+          <li>Toy</li>
+          <li>Bowl</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>BB-8</li>
+          <li>Chewbacca</li>
+          <li>Jack-o-lantern</li>
+          <li>Star Wars</li>
+          <li>Pumpkin</li>
+          <li>Lantern</li>
+          <li>Droid</li>
+          <li>Star Wars Opening Crawl</li>
+          <li>Porg</li>
+          <li>Halloween</li>
+          <li>Trick-or-treating</li>
+          <li>Carving</li>
+          <li>Stencil</li>
+          <li>Star Wars: The Last Jedi</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Outdoor</li>
+          <li>Sitting</li>
+          <li>Small</li>
+          <li>Orange</li>
+          <li>White</li>
+          <li>Table</li>
+          <li>Lamp</li>
+          <li>Top</li>
+          <li>Sidewalk</li>
+          <li>Vase</li>
+          <li>Flower</li>
+          <li>Black</li>
+          <li>Large</li>
+          <li>Green</li>
+          <li>Street</li>
+          <li>Standing</li>
+          <li>Yellow</li>
+          <li>Food</li>
+          <li>Dirty</li>
+          <li>Parked</li>
+          <li>Plate</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <img id="image13" src="https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/20140055_1855961531381284_5768609059359770714_n.jpg?_nc_cat=0&oh=ff94d89969b890b84169647f9303567a&oe=5B88FD7A">
+      </th>
+      <td>Alt="Image may contain: outdoor"</td>
+      <td>
+        <ul>
+          <li>Bus</li>
+          <li>Transportation</li>
+          <li>Vehicle</li>
+          <li>School Bus</li>
+          <li>Cable Car</li>
+          <li>Streetcar</li>
+          <li>Tram</li>
+          <li>Trolley</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Greenville County School District</li>
+          <li>School Bus</li>
+          <li>Bus</li>
+          <li>Elizabeth Public Schools</li>
+          <li>School</li>
+          <li>Transport</li>
+          <li>School District</li>
+          <li>School Bus Contractor</li>
+          <li>Public Transport</li>
+          <li>Field Trip</li>
+          <li>School Bus Yellow</li>
+          <li>Education</li>
+          <li>Seat Belt</li>
+          <li>Road</li>
+          <li>South Carolina</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Yellow</li>
+          <li>Outdoor</li>
+          <li>Road</li>
+          <li>Transport</li>
+          <li>Bus</li>
+          <li>School</li>
+          <li>Truck</li>
+          <li>Parked</li>
+          <li>Large</li>
+          <li>Black</li>
+          <li>Lot</li>
+          <li>Street</li>
+          <li>Sitting</li>
+          <li>Parking</li>
+          <li>Side</li>
+          <li>City</li>
+          <li>Driving</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
